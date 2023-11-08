@@ -152,14 +152,26 @@ header{
     }
 }
 .fixed-top{
-    padding: 20px 0;
-    background: #fff;
+    padding: 10px 0;
+    background: #fff;    
     .logo{
-        max-width: 150px;
+        max-width: 90px;
+    }
+    nav ul li{
+        font-size: 14px;
     }
     nav ul li.pedido{
-        max-width: 178px;
+        max-width: 138px;
         margin-top: 0;
+    }
+    .molto-logo-xl{
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        display: none;
+    }
+    .molto-logo-xs{
+        display: block;
     }
 }
 .main-love{
@@ -467,6 +479,15 @@ footer{
     padding: 5px 0 10px 10px;
     border-radius: 15px 0 0 15px;
 }
+
+
+.molto-logo-xl{
+    display: block;
+}
+.molto-logo-xs{
+    display: none;
+}
+
 
 /*Default styles*/
 .relative       { position: relative; }

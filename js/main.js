@@ -62,14 +62,14 @@ AOS.init();
 
 if(window.matchMedia("(max-width: 640px)").matches) {
     
-  }
-  else{    
-    jQuery(window).scroll(function(){
-        var scroll = 50;
-        if( jQuery(window).scrollTop() > scroll ){
-            jQuery('header').addClass('fixed-top');              
-        }else{
-            jQuery('header').removeClass('fixed-top');            
-        }          
-    });
-  }
+}
+else{    
+  jQuery(window).scroll(function(){
+      var scroll = 50;
+      if( jQuery(window).scrollTop() > scroll ){
+          jQuery('header').addClass('fixed-top');              
+      }else{
+          jQuery('header').removeClass('fixed-top');            
+      }          
+  });
+}
