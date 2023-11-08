@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Regina-Black-Solid';
+    src: url('fonts/ReginaBlack-Solid.eot');
+    src: url('fonts/ReginaBlack-Solid.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ReginaBlack-Solid.woff') format('woff'),
+        url('fonts/ReginaBlack-Solid.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regina-Black-Hilite';
+    src: url('fonts/ReginaBlack-Hilite.eot');
+    src: url('fonts/ReginaBlack-Hilite.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ReginaBlack-Hilite.woff') format('woff'),
+        url('fonts/ReginaBlack-Hilite.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}

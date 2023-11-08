@@ -1,0 +1,127 @@
+/* ------------------------------Ipad Horizontal---------------------------- */
+@media handheld, only screen and (min-width: 768px) and (max-width: 1024px){
+
+}
+
+/* ------------------------------Ipad Vertical---------------------------- */
+@media handheld, only screen and (min-width: 768px) and (max-width: 1023px) {
+	 
+}
+
+/* ---------------------------- 320px-640px -------------------------- */
+
+@media handheld, only screen and (max-width: 667px) {
+	#nav-toogle{
+		display: block;
+	}
+	.block-xs{
+		display: block !important;
+	}
+	.banner-home .swiper-button-next,
+	.banner-home .swiper-button-prev{
+		display: none;
+	}
+	.main-love,
+	.main-products, .main-orders{
+		padding: 30px 15px;
+		overflow: hidden;
+	}
+	.card-circle{
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+	}
+	.main-love figure{
+		margin-bottom: 30px;
+		padding: 0 80px;
+	}
+	.main-preparations{
+		padding: 30px 15px;
+	}
+	.slide-preparations{
+		padding: 0 30px;
+	}
+	.pagination-preparations .swiper-pagination-bullet{
+		margin: 0 4px !important;
+	}
+	.main-preparations h3{
+		padding-top: 30px;
+		font-size: 15px;
+	}
+	.flex-molto .img-1{
+		max-width: 175px;
+	}
+	.flex-molto .img-2{
+		max-width: 190px;
+		margin-left: -70px;
+	}
+	.flex-molto figure{
+		margin-bottom: 30px;
+	}
+	.main-love p{
+		font-size: 15px;
+	}
+	footer .franje-1{
+		padding: 30px 15px 40px 15px;
+	}
+	footer article{text-align: center;}
+	footer article figure{
+		display: inline-block;
+		vertical-align: top;
+	}
+	footer .franje-2{
+		padding: 30px 40px;
+	}
+	footer .redes{
+		margin-top: 30px;
+	}
+	footer .btn-pedidos{
+		// display: inline-block;
+		// vertical-align: top;
+		display: none;
+	}
+	.banner-home{
+		padding: 0 15px 30px 15px;
+	}
+	header .logo {
+		max-width: 172px;
+		margin: 0 auto 20px;
+	}
+	header nav ul li.pedido{
+		display: none;
+	}
+	header{	
+		padding: 20px 15px;	
+		nav{
+			position: absolute;
+			left: -100%;
+			top: 180px;
+			width: 100%;
+			transition: all 0.4s ease-out;
+			padding: 0 15px;
+			ul{
+				li{
+					width: 100%;
+					margin: 0 0;
+					text-align: left;
+					border-bottom: 1px solid #144734;
+					a{
+						// color: #fff;
+						padding: 15px 0;
+						&:hover, &:focus{
+							color: #144734;
+						}
+					}
+				}
+			}
+		}
+	}
+	.btn-pedido-xs{
+		display: block;
+	}
+  
+}
+
+/* ---------------------------- < 320px- -------------------------- */
+@media handheld, only screen and (min-width: 300px) and (max-width: 321px) {
+
+}
